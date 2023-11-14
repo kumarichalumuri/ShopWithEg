@@ -50,10 +50,15 @@ public class StepDefination extends BaseClass{
 	
 	@When("user clicks on createaccount link")
 	public void user_clicks_on_createaccount_link() {
-		createAccount.createAccount();
-	    
+		createAccount.createAccount();   
 	}
 
+	@When("user enters valid details for createaccount page")
+	public void user_enters_valid_details_for_createaccount_page()
+	{
+		createAccount.firstnameTextbox();
+	}
+	
 	@When("user clicks on createaccount button")
 	public void user_clicks_on_createaccount_button() {
 	    
