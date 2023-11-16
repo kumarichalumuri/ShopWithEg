@@ -42,33 +42,29 @@ public class CreateAccount extends BaseClass {
 	{
 		createAccountButton.click(); 
 	}
-	public void firstnameTextbox()
+	public void firstnameTextbox(String firstname)
 	{
-		firstNameTextbox.sendKeys("Chalumuri");
+		firstNameTextbox.sendKeys("firstname");
 	}
-	public void laststnamebox()
+	public void laststnamebox(String lastname)
 	{
-		lastNameTextbox.sendKeys("Chalumuri");
+		lastNameTextbox.sendKeys("lastname");
 	}
-	public void enteremailbox()
+	public void enteremailbox(String email)
 	{
-		enteremailTextbox.sendKeys("kumarigangiraju01@gmail.com");
+		enteremailTextbox.sendKeys("email");
 	}
-	public void passwordTextbox()
+	public void passwordTextbox(String password)
 	{
-		enterpasswordTextbox.sendKeys("Kumari@123");
+		enterpasswordTextbox.sendKeys("password");
 	}
-	public void confirmPasswordTextbox1()
+	public void confirmPasswordTextbox1(String confirmPassword)
 	{
-		enterconfirmpasswordTextbox.sendKeys("Kumari@123");
+		enterconfirmpasswordTextbox.sendKeys("confirmPassword");
 	}
-	public void confirmPasswordTextbox()
+	public void dateofbirthTextbox(String date)
 	{
-		enterconfirmpasswordTextbox.sendKeys("Kumari@123");
-	}
-	public void dateofbirthTextbox()
-	{
-		dateOfBirthTextbox.sendKeys("20/081991");
+		dateOfBirthTextbox.sendKeys("date");
 	}
 	public void createaccountbutton()
 	{

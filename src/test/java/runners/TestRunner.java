@@ -12,10 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 	features="src\\test\\resources\\features",
 	glue ="stepDefinations",	
 	plugin= {"pretty","html:target/cucucmberReport.html"},
-	tags="@tc3"
+	tags="@tc1"
 	
 )
-
 public class TestRunner { 
 
 }

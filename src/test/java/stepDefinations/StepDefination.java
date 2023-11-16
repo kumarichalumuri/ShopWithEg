@@ -56,7 +56,14 @@ public class StepDefination extends BaseClass{
 	@When("user enters valid details for createaccount page")
 	public void user_enters_valid_details_for_createaccount_page()
 	{
-		createAccount.firstnameTextbox();
+		createAccount.firstnameTextbox("kumari");
+		createAccount.laststnamebox("chalumuri");
+		createAccount.enteremailbox("kumarigangiraju0@gmail.com");
+		createAccount.passwordTextbox("HanshikaM@58");
+		createAccount.confirmPasswordTextbox1("HanshikaM@58");
+		createAccount.dateofbirthTextbox("20/08/1991");
+		
+		
 	}
 	
 	@When("user clicks on createaccount button")

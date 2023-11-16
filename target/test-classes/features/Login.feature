@@ -23,7 +23,17 @@ Feature: verify Login functionality
     And user enters "<email>" and "<password>"
     And user clicks on signIn button
     Then user will be logged in
-
+    
+  @tc4
+  Scenario: verify CreateAccount with valid credentials
+    Given user launches shopWithEG application
+    When user clicks on login link
+    When user clicks on createaccount link  
+    And user enters valid details for createaccount page
+    And user clicks on createaccount button
+    Then user will be created account
+    
+    
     Examples: 
       | email               | password  |
       | testemail1@test.com | password1 |
